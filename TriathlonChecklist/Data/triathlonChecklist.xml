@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TriathlonChecklist>
+  <Category>
+    <Name>Swim</Name>
+  </Category>
+  <Category>
+    <Name>Bike</Name>
+  </Category>
+  <Category>
+    <Name>Run</Name>
+  </Category>
+  <Category>
+    <Name>Misc</Name>
+  </Category>
+  <Item>
+    <Name>Swimsuit/tri shorts</Name>
+    <CategoryId>1</CategoryId>
+  </Item>
+  <Item>
+    <Name>Wetsuit</Name>
+    <CategoryId>1</CategoryId>
+  </Item>
+  <Item>
+    <Name>Goggles</Name>
+    <CategoryId>1</CategoryId>
+  </Item>
+  <Item>
+    <Name>Swim cap</Name>
+    <CategoryId>1</CategoryId>
+  </Item>
+  <Item>
+    <Name>Towel</Name>
+    <CategoryId>1</CategoryId>
+  </Item>
+  <Item>
+    <Name>Ear plugs</Name>
+    <CategoryId>1</CategoryId>
+  </Item>
+  <Item>
+    <Name>Lubricant/anti-chafe</Name>
+    <CategoryId>1</CategoryId>
+  </Item>
+  <Item>
+    <Name>Bike</Name>
+    <CategoryId>2</CategoryId>
+  </Item>
+  <Item>
+    <Name>Helmet</Name>
+    <CategoryId>2</CategoryId>
+  </Item>
+  <Item>
+    <Name>Bike shorts/tri shorts</Name>
+    <CategoryId>2</CategoryId>
+  </Item>
+  <Item>
+    <Name>Cycling shoes</Name>
+    <CategoryId>2</CategoryId>
+  </Item>
+  <Item>
+    <Name>Sunglasses</Name>
+    <CategoryId>2</CategoryId>
+  </Item>
+  <Item>
+    <Name>Water bottles</Name>
+    <CategoryId>2</CategoryId>
+  </Item>
+  <Item>
+    <Name>Energy gel/snacks</Name>
+    <CategoryId>2</CategoryId>
+  </Item>
+  <Item>
+    <Name>Cycling gloves</Name>
+    <CategoryId>2</CategoryId>
+  </Item>
+  <Item>
+    <Name>Running shirt</Name>
+    <CategoryId>3</CategoryId>
+  </Item>
+  <Item>
+    <Name>Running shoes</Name>
+    <CategoryId>3</CategoryId>
+  </Item>
+  <Item>
+    <Name>Socks</Name>
+    <CategoryId>3</CategoryId>
+  </Item>
+  <Item>
+    <Name>Quick laces</Name>
+    <CategoryId>3</CategoryId>
+  </Item>
+  <Item>
+    <Name>Fuel belt</Name>
+    <CategoryId>3</CategoryId>
+  </Item>
+  <Item>
+    <Name>Lubricant for feet</Name>
+    <CategoryId>3</CategoryId>
+  </Item>
+  <Item>
+    <Name>Energy gel/snacks</Name>
+    <CategoryId>3</CategoryId>
+  </Item>
+  <Item>
+    <Name>Confirmation letter</Name>
+    <CategoryId>4</CategoryId>
+  </Item>
+  <Item>
+    <Name>Chip</Name>
+    <CategoryId>4</CategoryId>
+  </Item>
+  <Item>
+    <Name>Bag</Name>
+    <CategoryId>4</CategoryId>
+  </Item>
+  <Item>
+    <Name>Towel for transition area</Name>
+    <CategoryId>4</CategoryId>
+  </Item>
+  <Item>
+    <Name>Sportwatch (charged)</Name>
+    <CategoryId>4</CategoryId>
+  </Item>
+  <Item>
+    <Name>Race route</Name>
+    <CategoryId>4</CategoryId>
+  </Item>
+  <Item>
+    <Name>Cold/rainy weather clothing</Name>
+    <CategoryId>4</CategoryId>
+  </Item>
+  <Item>
+    <Name>Sunscreen cream</Name>
+    <CategoryId>4</CategoryId>
+  </Item>
+  <Item>
+    <Name>Post-race clothing</Name>
+    <CategoryId>4</CategoryId>
+  </Item>
+  <Item>
+    <Name>Post-race food</Name>
+    <CategoryId>4</CategoryId>
+  </Item>
+  <Item>
+    <Name>Camera</Name>
+    <CategoryId>4</CategoryId>
+  </Item>
+</TriathlonChecklist>

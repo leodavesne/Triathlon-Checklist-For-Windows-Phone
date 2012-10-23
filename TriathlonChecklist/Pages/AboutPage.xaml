@@ -1,0 +1,203 @@
+﻿<local:PageBase 
+    x:Class="TriathlonChecklist.AboutPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:TriathlonChecklist"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d" d:DesignHeight="768" d:DesignWidth="480"
+    shell:SystemTray.IsVisible="True" Margin="0,10,0,0">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Black" Margin="0,-32,0,0">
+        <!--Pivot Control-->
+        <controls:Pivot Title="{Binding AppResources.ApplicationName, Source={StaticResource InternationalizationHelper}}">
+            <controls:Pivot.HeaderTemplate>
+                <DataTemplate>
+                    <TextBlock Foreground="#FF2E74A7" Text="{Binding}" />
+                </DataTemplate>
+            </controls:Pivot.HeaderTemplate>
+            <controls:PivotItem Header="tips" VerticalAlignment="Top">
+                <Grid>
+                    <RichTextBox TextAlignment="Justify" Margin="0,0,0,8" VerticalAlignment="Top">
+                        <Paragraph>
+                            <Run Text="Navigate through items" FontSize="36"/>
+                        </Paragraph>
+                        <Paragraph>
+                            <Run Text="Consult swim, bike, run and miscellaneous items."/>
+                        </Paragraph>
+                        <Paragraph>
+                            <Run/>
+                        </Paragraph>
+                        <Paragraph>
+                            <Run Text="Check an item" FontSize="36"/>
+                        </Paragraph>
+                        <Paragraph>
+                            <Run Text="Touch the white box or the item's name. A check mark appears after you checked it."/>
+                        </Paragraph>
+                        <Paragraph>
+                            <Run/>
+                        </Paragraph>
+                        <Paragraph>
+                            <Run Text="Remove an item" FontSize="36"/>
+                        </Paragraph>
+                        <Paragraph>
+                            <Run Text="Press and hold on an item until a menu pops up, and touch &quot;remove&quot;. It can't be undone!"/>
+                        </Paragraph>
+                        <Paragraph>
+                            <Run/>
+                        </Paragraph>
+                        <Paragraph>
+                            <Run Text="Add an item" FontSize="36"/>
+                        </Paragraph>
+                        <Paragraph>
+                            <Run Text="Touch the application bar and touch &quot;add an item&quot;. Then fill the name and select the item's category."/>
+                        </Paragraph>
+                        <!--<Paragraph>
+                            <Run/>
+                        </Paragraph>
+                        <Paragraph>
+                            <Run Text="Uncheck all items" FontSize="36"/>
+                        </Paragraph>
+                        <Paragraph>
+                            <Run Text="Touch the application bar and touch &quot;uncheck all&quot;. But look out! It uncheck all swim, bike, run and misc items!"/>
+                        </Paragraph>-->
+                    </RichTextBox>
+                </Grid>
+            </controls:PivotItem>
+            <controls:PivotItem Header="about">
+                <Grid>
+                    <Grid>
+                        <RichTextBox FontSize="18.667" TextAlignment="Justify" VerticalAlignment="Top">
+                            <Paragraph>
+                                <Run Text="Application: Triathlon Checklist" FontSize="30"/>
+                            </Paragraph>
+                            <Paragraph>
+                                <Run Text="Version: 0.3" FontSize="30"/>
+                            </Paragraph>
+                            <Paragraph>
+                                <Run Text="Publisher: cematinlà.com" FontSize="30"/>
+                            </Paragraph>
+                            <Paragraph>
+                                <Run/>
+                            </Paragraph>
+                            <Paragraph>
+                                <Run Text="Review and check items for swimming, cycling and running."/>
+                            </Paragraph>
+                            <Paragraph>
+                                <Run/>
+                            </Paragraph>
+                            <Paragraph>
+                                <Run Text="You are waiting for the gunshot at the starting line... Are you sure you thought about everything? Triathlon Checklist helps you to be 100% confident on race day!"/>
+                            </Paragraph>
+                            <Paragraph>
+                                <Run/>
+                            </Paragraph>
+                            <Paragraph>
+                                <!--<Run Text="The suggested list - based on input from several triathletes - includes basic, compulsory and optional items. Put off the stress and enjoy the race!"/>-->
+                                <Run Text="Put off the stress and enjoy the race!"/>
+                            </Paragraph>
+                        </RichTextBox>
+                    </Grid>
+                    <Grid>
+                        <Button Height="92" Margin="56,0,56,134" VerticalAlignment="Bottom" BorderThickness="0" Click="RateOurWork_Click" >
+                            <Button.Background>
+                                <ImageBrush ImageSource="/Triathlon Checklist;component/Images/rateOurWork02.png" Stretch="None"/>
+                            </Button.Background>
+                        </Button>
+                        <Button Height="100" Margin="56,0,56,25" VerticalAlignment="Bottom" BorderThickness="0" Click="ContactUs_Click">
+                            <Button.Background>
+                                <ImageBrush ImageSource="/Triathlon Checklist;component/Images/contactUs02.png" Stretch="None"/>
+                            </Button.Background>
+                        </Button>
+                    </Grid>
+                </Grid>
+            </controls:PivotItem>
+            <controls:PivotItem Header="history" VerticalAlignment="Top">
+                <Grid>
+                    <RichTextBox TextAlignment="Justify">
+                        <Paragraph>
+                            <Run Text="Current version: 0.3" FontSize="26"/>
+                        </Paragraph>
+                    	<Paragraph>
+                            <Run/>
+                        </Paragraph>
+                        <Paragraph>
+                            <Run Text="Version 0.3 - October 2012" FontSize="26"/>
+                        </Paragraph>
+                    	<Paragraph>
+                            <Run Text="This is the initial public version."/>
+                        </Paragraph>
+                    	<Paragraph>
+                            <Run/>
+                        </Paragraph>
+                        <Paragraph>
+                            <Run Text="Version 0.1 - September 2012" FontSize="26"/>
+                        </Paragraph>
+                    	<Paragraph>
+                            <Run Text="Beta version."/>
+                        </Paragraph>
+                        <Paragraph>
+                            <Run/>
+                        </Paragraph>
+                        <Paragraph>
+                            <Run Text="Want a Windows application?" FontSize="26" Foreground="#FF2E74A7"/>
+                        </Paragraph>
+                        <Paragraph>
+                            <Run Text="Do not hesitate to contact us!" Foreground="#FF2E74A7"/>
+                        </Paragraph>
+                        <Paragraph>
+                            <Run/>
+                        </Paragraph>
+                        <Paragraph>
+                            <Run Text="Thank you for testing" FontSize="26"/>
+                        </Paragraph>
+                    	<Paragraph>
+                            <Run Text="Julie"/>
+                        </Paragraph>
+                    	<Paragraph>
+                            <Run Text="Célia"/>
+                        </Paragraph>
+                    	<Paragraph>
+                            <Run Text="Thibault"/>
+                        </Paragraph>
+                        <Paragraph>
+                            <Run Text="Xavier"/>
+                        </Paragraph>
+                        <Paragraph>
+                            <Run/>
+                        </Paragraph>
+                        <Paragraph>
+                            <Run Text="Developers" FontSize="26"/>
+                        </Paragraph>
+                        <Paragraph>
+                            <Run Text="Fork here: bitly.com/ForkTriathlonChecklist"/>
+                        </Paragraph>
+                    </RichTextBox>
+                </Grid>
+            </controls:PivotItem>
+            <!--<controls:PivotItem Header="featured" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Grid>
+                    <RichTextBox FontSize="18.667" TextAlignment="Center" Margin="0,0,0,8">
+                        <Paragraph>
+                            <Run Text="New apps are coming..."/>
+                        </Paragraph>
+                        <Paragraph>
+                            <Run/>
+                        </Paragraph>
+                        <Paragraph>
+                            <Run Text="Stay tuned!"/>
+                        </Paragraph>
+                    </RichTextBox>
+                </Grid>
+            </controls:PivotItem>-->
+        </controls:Pivot>
+    </Grid>
+</local:PageBase>
