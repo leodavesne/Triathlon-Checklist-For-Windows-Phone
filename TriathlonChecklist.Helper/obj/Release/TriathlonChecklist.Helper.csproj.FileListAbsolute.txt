@@ -1,8 +1,0 @@
-E:\Documents\Visual Studio 2010\Projects\TriathlonChecklist\TriathlonChecklist.Helper\Bin\Release\TriathlonChecklist.Helper.dll
-E:\Documents\Visual Studio 2010\Projects\TriathlonChecklist\TriathlonChecklist.Helper\Bin\Release\TriathlonChecklist.Helper.pdb
-E:\Documents\Visual Studio 2010\Projects\TriathlonChecklist\TriathlonChecklist.Helper\obj\Release\ResolveAssemblyReference.cache
-E:\Documents\Visual Studio 2010\Projects\TriathlonChecklist\TriathlonChecklist.Helper\obj\Release\TriathlonChecklist.Helper.AppResources.resources
-E:\Documents\Visual Studio 2010\Projects\TriathlonChecklist\TriathlonChecklist.Helper\obj\Release\GenerateResource.read.1.tlog
-E:\Documents\Visual Studio 2010\Projects\TriathlonChecklist\TriathlonChecklist.Helper\obj\Release\GenerateResource.write.1.tlog
-E:\Documents\Visual Studio 2010\Projects\TriathlonChecklist\TriathlonChecklist.Helper\obj\Release\TriathlonChecklist.Helper.dll
-E:\Documents\Visual Studio 2010\Projects\TriathlonChecklist\TriathlonChecklist.Helper\obj\Release\TriathlonChecklist.Helper.pdb
