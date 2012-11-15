@@ -1,4 +1,4 @@
-[Triathlon-Checklist]
+Triathlon-Checklist
 ===================
 
 Triathlon Checklist is a Windows Phone application for triathletes. Download it for free: http://bit.ly/TriathlonChecklist
@@ -21,7 +21,7 @@ Triathlon Checklist uses:
 Authors
 -------
 
-**Léo Davesne**
+**Lï¿½o Davesne**
 
 + Twitter: http://twitter.com/leodavesne
 + GitHub: http://github.com/leodavesne
