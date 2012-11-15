@@ -1,0 +1,17 @@
+E:\Documents\Visual Studio 2010\Projects\TriathlonChecklist\TriathlonChecklist.ViewModel\Bin\Release\TriathlonChecklist.ViewModel.dll
+E:\Documents\Visual Studio 2010\Projects\TriathlonChecklist\TriathlonChecklist.ViewModel\Bin\Release\TriathlonChecklist.ViewModel.pdb
+E:\Documents\Visual Studio 2010\Projects\TriathlonChecklist\TriathlonChecklist.ViewModel\Bin\Release\GalaSoft.MvvmLight.Extras.WP71.dll
+E:\Documents\Visual Studio 2010\Projects\TriathlonChecklist\TriathlonChecklist.ViewModel\Bin\Release\GalaSoft.MvvmLight.WP71.dll
+E:\Documents\Visual Studio 2010\Projects\TriathlonChecklist\TriathlonChecklist.ViewModel\Bin\Release\Microsoft.Practices.ServiceLocation.dll
+E:\Documents\Visual Studio 2010\Projects\TriathlonChecklist\TriathlonChecklist.ViewModel\Bin\Release\System.Windows.Interactivity.dll
+E:\Documents\Visual Studio 2010\Projects\TriathlonChecklist\TriathlonChecklist.ViewModel\Bin\Release\TriathlonChecklist.Helper.dll
+E:\Documents\Visual Studio 2010\Projects\TriathlonChecklist\TriathlonChecklist.ViewModel\Bin\Release\TriathlonChecklist.Model.dll
+E:\Documents\Visual Studio 2010\Projects\TriathlonChecklist\TriathlonChecklist.ViewModel\Bin\Release\TriathlonChecklist.Helper.pdb
+E:\Documents\Visual Studio 2010\Projects\TriathlonChecklist\TriathlonChecklist.ViewModel\Bin\Release\TriathlonChecklist.Model.pdb
+E:\Documents\Visual Studio 2010\Projects\TriathlonChecklist\TriathlonChecklist.ViewModel\Bin\Release\GalaSoft.MvvmLight.Extras.WP71.xml
+E:\Documents\Visual Studio 2010\Projects\TriathlonChecklist\TriathlonChecklist.ViewModel\Bin\Release\GalaSoft.MvvmLight.WP71.xml
+E:\Documents\Visual Studio 2010\Projects\TriathlonChecklist\TriathlonChecklist.ViewModel\Bin\Release\Microsoft.Practices.ServiceLocation.xml
+E:\Documents\Visual Studio 2010\Projects\TriathlonChecklist\TriathlonChecklist.ViewModel\Bin\Release\System.Windows.Interactivity.xml
+E:\Documents\Visual Studio 2010\Projects\TriathlonChecklist\TriathlonChecklist.ViewModel\obj\Release\ResolveAssemblyReference.cache
+E:\Documents\Visual Studio 2010\Projects\TriathlonChecklist\TriathlonChecklist.ViewModel\obj\Release\TriathlonChecklist.ViewModel.dll
+E:\Documents\Visual Studio 2010\Projects\TriathlonChecklist\TriathlonChecklist.ViewModel\obj\Release\TriathlonChecklist.ViewModel.pdb

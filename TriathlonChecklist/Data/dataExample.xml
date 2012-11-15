@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TriathlonChecklist>
+  <Category>
+    <Name>Swim</Name>
+  </Category>
+  <Category>
+    <Name>Bike</Name>
+  </Category>
+  <Category>
+    <Name>Run</Name>
+  </Category>
+  <Category>
+    <Name>Misc</Name>
+  </Category>
+  <Item>
+    <Name>Item 1</Name>
+    <CategoryId>1</CategoryId>
+  </Item>
+  <Item>
+    <Name>Item 2</Name>
+    <CategoryId>2</CategoryId>
+  </Item>
+  <Item>
+    <Name>Item 3</Name>
+    <CategoryId>3</CategoryId>
+  </Item>
+  <Item>
+    <Name>Item 4</Name>
+    <CategoryId>4</CategoryId>
+  </Item>
+</TriathlonChecklist>

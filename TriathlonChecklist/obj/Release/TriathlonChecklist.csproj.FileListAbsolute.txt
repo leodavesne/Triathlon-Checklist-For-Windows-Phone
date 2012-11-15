@@ -1,0 +1,34 @@
+E:\Documents\Visual Studio 2010\Projects\TriathlonChecklist\TriathlonChecklist\Bin\Release\Triathlon Checklist.dll
+E:\Documents\Visual Studio 2010\Projects\TriathlonChecklist\TriathlonChecklist\Bin\Release\Triathlon Checklist.pdb
+E:\Documents\Visual Studio 2010\Projects\TriathlonChecklist\TriathlonChecklist\Bin\Release\AppManifest.xaml
+E:\Documents\Visual Studio 2010\Projects\TriathlonChecklist\TriathlonChecklist\Bin\Release\TriathlonChecklist.xap
+E:\Documents\Visual Studio 2010\Projects\TriathlonChecklist\TriathlonChecklist\Bin\Release\FlurryWP7SDK.dll
+E:\Documents\Visual Studio 2010\Projects\TriathlonChecklist\TriathlonChecklist\Bin\Release\GalaSoft.MvvmLight.Extras.WP71.dll
+E:\Documents\Visual Studio 2010\Projects\TriathlonChecklist\TriathlonChecklist\Bin\Release\JeffWilcox.PhoneThemeManager.dll
+E:\Documents\Visual Studio 2010\Projects\TriathlonChecklist\TriathlonChecklist\Bin\Release\Microsoft.Phone.Controls.dll
+E:\Documents\Visual Studio 2010\Projects\TriathlonChecklist\TriathlonChecklist\Bin\Release\Microsoft.Phone.Controls.Toolkit.dll
+E:\Documents\Visual Studio 2010\Projects\TriathlonChecklist\TriathlonChecklist\Bin\Release\TriathlonChecklist.Helper.dll
+E:\Documents\Visual Studio 2010\Projects\TriathlonChecklist\TriathlonChecklist\Bin\Release\TriathlonChecklist.Model.dll
+E:\Documents\Visual Studio 2010\Projects\TriathlonChecklist\TriathlonChecklist\Bin\Release\TriathlonChecklist.ViewModel.dll
+E:\Documents\Visual Studio 2010\Projects\TriathlonChecklist\TriathlonChecklist\Bin\Release\Microsoft.Practices.ServiceLocation.dll
+E:\Documents\Visual Studio 2010\Projects\TriathlonChecklist\TriathlonChecklist\Bin\Release\System.Windows.Interactivity.dll
+E:\Documents\Visual Studio 2010\Projects\TriathlonChecklist\TriathlonChecklist\Bin\Release\TriathlonChecklist.Helper.pdb
+E:\Documents\Visual Studio 2010\Projects\TriathlonChecklist\TriathlonChecklist\Bin\Release\TriathlonChecklist.Model.pdb
+E:\Documents\Visual Studio 2010\Projects\TriathlonChecklist\TriathlonChecklist\Bin\Release\TriathlonChecklist.ViewModel.pdb
+E:\Documents\Visual Studio 2010\Projects\TriathlonChecklist\TriathlonChecklist\Bin\Release\GalaSoft.MvvmLight.Extras.WP71.xml
+E:\Documents\Visual Studio 2010\Projects\TriathlonChecklist\TriathlonChecklist\Bin\Release\JeffWilcox.PhoneThemeManager.pdb
+E:\Documents\Visual Studio 2010\Projects\TriathlonChecklist\TriathlonChecklist\Bin\Release\Microsoft.Phone.Controls.xml
+E:\Documents\Visual Studio 2010\Projects\TriathlonChecklist\TriathlonChecklist\Bin\Release\Microsoft.Phone.Controls.Toolkit.pdb
+E:\Documents\Visual Studio 2010\Projects\TriathlonChecklist\TriathlonChecklist\Bin\Release\Microsoft.Phone.Controls.Toolkit.xml
+E:\Documents\Visual Studio 2010\Projects\TriathlonChecklist\TriathlonChecklist\Bin\Release\Microsoft.Practices.ServiceLocation.xml
+E:\Documents\Visual Studio 2010\Projects\TriathlonChecklist\TriathlonChecklist\Bin\Release\System.Windows.Interactivity.xml
+E:\Documents\Visual Studio 2010\Projects\TriathlonChecklist\TriathlonChecklist\obj\Release\ResolveAssemblyReference.cache
+E:\Documents\Visual Studio 2010\Projects\TriathlonChecklist\TriathlonChecklist\obj\Release\App.g.i.cs
+E:\Documents\Visual Studio 2010\Projects\TriathlonChecklist\TriathlonChecklist\obj\Release\Pages\AboutPage.g.i.cs
+E:\Documents\Visual Studio 2010\Projects\TriathlonChecklist\TriathlonChecklist\obj\Release\Pages\AddItemPage.g.i.cs
+E:\Documents\Visual Studio 2010\Projects\TriathlonChecklist\TriathlonChecklist\obj\Release\Pages\MainPage.g.i.cs
+E:\Documents\Visual Studio 2010\Projects\TriathlonChecklist\TriathlonChecklist\obj\Release\Pages\SplashScreenPage.g.i.cs
+E:\Documents\Visual Studio 2010\Projects\TriathlonChecklist\TriathlonChecklist\obj\Release\Triathlon Checklist.g.resources
+E:\Documents\Visual Studio 2010\Projects\TriathlonChecklist\TriathlonChecklist\obj\Release\Triathlon Checklist.dll
+E:\Documents\Visual Studio 2010\Projects\TriathlonChecklist\TriathlonChecklist\obj\Release\Triathlon Checklist.pdb
+E:\Documents\Visual Studio 2010\Projects\TriathlonChecklist\TriathlonChecklist\obj\Release\XapCacheFile.xml

@@ -1,0 +1,128 @@
+﻿<local:PageBase 
+    x:Class="TriathlonChecklist.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:TriathlonChecklist"
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="728"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    xmlns:helper="clr-namespace:TriathlonChecklist.Helper;assembly=TriathlonChecklist.Helper"
+    shell:SystemTray.IsVisible="False">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Black">
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="0,-32,0,10">
+            <!--Panorama Control-->
+            <controls:Panorama Title="Triathlon Checklist" Background="#00000000" x:Name="ChecklistsPanorama">
+                <controls:Panorama.TitleTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding AppResources.Title, Source={StaticResource InternationalizationHelper}}" FontSize="20" Margin="5,133,0,0" />
+                    </DataTemplate>
+                </controls:Panorama.TitleTemplate>
+                <!--Panorama item one-->
+            	<controls:PanoramaItem Header="{Binding AppResources.Header01, Source={StaticResource InternationalizationHelper}}" Foreground="#FF2E74A7">
+                    <Grid Background="Black">
+            			<ListBox SelectionMode="Multiple" ItemsSource="{Binding SwimChecklist, Mode=TwoWay}" ScrollViewer.VerticalScrollBarVisibility="Visible">
+            				<ListBox.ItemTemplate>
+            					<DataTemplate>
+            						<StackPanel Orientation="Horizontal">
+            							<toolkit:ContextMenuService.ContextMenu>
+            								<toolkit:ContextMenu>
+            									<toolkit:MenuItem Header="remove" Command="{Binding RemoveCommand, Mode=OneWay}" CommandParameter="{Binding}"/>
+            								</toolkit:ContextMenu>
+            							</toolkit:ContextMenuService.ContextMenu>
+            							<CheckBox Content="{Binding Name}" IsChecked="{Binding IsSelected, Mode=TwoWay}" ClickMode="Release" Foreground="{Binding IsChecked, Converter={StaticResource CheckBoxConverterHelper}, Mode=TwoWay, RelativeSource={RelativeSource Self}}" Visibility="{Binding Visibility}" AllowDrop="False"/>
+            						</StackPanel>
+            					</DataTemplate>
+            				</ListBox.ItemTemplate>
+            			</ListBox>
+                        <TextBlock Text="loading..." Visibility="{Binding LoadingScreenVisibility, Mode=TwoWay}" FontSize="26.667" TextAlignment="Center" Margin="0,0,0,110" VerticalAlignment="Center" Foreground="#FF2E74A7" HorizontalAlignment="Center"/>
+            		</Grid>
+                </controls:PanoramaItem>
+                <!--Panorama item two-->
+            	<controls:PanoramaItem Header="{Binding AppResources.Header02, Source={StaticResource InternationalizationHelper}}" Foreground="#FF2E74A7">
+            		<Grid>
+            			<ListBox SelectionMode="Multiple" ItemsSource="{Binding BikeChecklist, Mode=TwoWay}" ScrollViewer.VerticalScrollBarVisibility="Visible">
+            				<ListBox.ItemTemplate>
+            					<DataTemplate>
+            						<StackPanel Orientation="Horizontal">
+            							<toolkit:ContextMenuService.ContextMenu>
+            								<toolkit:ContextMenu>
+            									<toolkit:MenuItem Header="remove" Command="{Binding RemoveCommand, Mode=OneWay}" CommandParameter="{Binding}"/>
+            								</toolkit:ContextMenu>
+            							</toolkit:ContextMenuService.ContextMenu>
+            							<CheckBox Content="{Binding Name}" IsChecked="{Binding IsSelected, Mode=TwoWay}" ClickMode="Release" Foreground="{Binding IsChecked, Converter={StaticResource CheckBoxConverterHelper}, Mode=TwoWay, RelativeSource={RelativeSource Self}}" Visibility="{Binding Visibility}"/>
+            						</StackPanel>
+            					</DataTemplate>
+            				</ListBox.ItemTemplate>
+            			</ListBox>
+                        <TextBlock Text="loading..." Visibility="{Binding LoadingScreenVisibility, Mode=TwoWay}" FontSize="26.667" TextAlignment="Center" Margin="0,0,0,110" VerticalAlignment="Center" Foreground="#FF2E74A7" HorizontalAlignment="Center"/>
+            		</Grid>
+            	</controls:PanoramaItem>
+                <!--Panorama item three-->
+            	<controls:PanoramaItem Header="{Binding AppResources.Header03, Source={StaticResource InternationalizationHelper}}" Foreground="#FF2E74A7">
+            		<Grid>
+            			<ListBox SelectionMode="Multiple" ItemsSource="{Binding RunChecklist, Mode=TwoWay}">
+            				<ListBox.ItemTemplate>
+            					<DataTemplate>
+            						<StackPanel Orientation="Horizontal">
+            							<toolkit:ContextMenuService.ContextMenu>
+            								<toolkit:ContextMenu>
+            									<toolkit:MenuItem Header="remove" Command="{Binding RemoveCommand, Mode=OneWay}" CommandParameter="{Binding}"/>
+            								</toolkit:ContextMenu>
+            							</toolkit:ContextMenuService.ContextMenu>
+            							<CheckBox Content="{Binding Name}" IsChecked="{Binding IsSelected, Mode=TwoWay}" ClickMode="Release" Foreground="{Binding IsChecked, Converter={StaticResource CheckBoxConverterHelper}, Mode=TwoWay, RelativeSource={RelativeSource Self}}" Visibility="{Binding Visibility}"/>
+            						</StackPanel>
+            					</DataTemplate>
+            				</ListBox.ItemTemplate>
+            			</ListBox>
+                        <TextBlock Text="loading..." Visibility="{Binding LoadingScreenVisibility, Mode=TwoWay}" FontSize="26.667" TextAlignment="Center" Margin="0,0,0,110" VerticalAlignment="Center" Foreground="#FF2E74A7" HorizontalAlignment="Center"/>
+            		</Grid>
+            	</controls:PanoramaItem>
+                <!--Panorama item four-->
+            	<controls:PanoramaItem Header="{Binding AppResources.Header04, Source={StaticResource InternationalizationHelper}}" Foreground="#FF2E74A7">
+            		<Grid>
+            			<ListBox SelectionMode="Multiple" ItemsSource="{Binding MiscChecklist, Mode=TwoWay}">
+            				<ListBox.ItemTemplate>
+            					<DataTemplate>
+            						<StackPanel Orientation="Horizontal">
+            							<toolkit:ContextMenuService.ContextMenu>
+            								<toolkit:ContextMenu>
+            									<toolkit:MenuItem Header="remove" Command="{Binding RemoveCommand, Mode=OneWay}" CommandParameter="{Binding}"/>
+            								</toolkit:ContextMenu>
+            							</toolkit:ContextMenuService.ContextMenu>
+            							<CheckBox Content="{Binding Name}" IsChecked="{Binding IsSelected, Mode=TwoWay}" ClickMode="Release" Foreground="{Binding IsChecked, Converter={StaticResource CheckBoxConverterHelper}, Mode=TwoWay, RelativeSource={RelativeSource Self}}" Visibility="{Binding Visibility}"/>
+            						</StackPanel>
+            					</DataTemplate>
+            				</ListBox.ItemTemplate>
+            			</ListBox>
+                        <TextBlock Text="loading..." Visibility="{Binding LoadingScreenVisibility, Mode=TwoWay}" FontSize="26.667" TextAlignment="Center" Margin="0,0,0,110" VerticalAlignment="Center" Foreground="#FF2E74A7" HorizontalAlignment="Center"/>
+            		</Grid>
+            	</controls:PanoramaItem>
+            </controls:Panorama>
+            <!--Panorama Control-->
+        </Grid>
+    </Grid>
+    <!--Application bar-->
+    <local:PageBase.ApplicationBar>
+        <shell:ApplicationBar IsMenuEnabled="True" Mode="Default" Opacity="1.0" BackgroundColor="#FF336699">
+            <shell:ApplicationBar.Buttons>
+                <shell:ApplicationBarIconButton x:Name="AddItemBarMenuItem" Text="add an item" IconUri="/Images/add01.png" Click="AddItemBarMenuItem_Click"></shell:ApplicationBarIconButton>
+            </shell:ApplicationBar.Buttons>
+            <shell:ApplicationBar.MenuItems>
+                <!--<shell:ApplicationBarMenuItem x:Name="ReinitializeBarMenuItem" Text="reinitialize" Click="ReinitializeBarMenuItem_Click" />
+                <shell:ApplicationBarMenuItem x:Name="UncheckAllBarMenuItem" Text="uncheck all" Click="UncheckAllBarMenuItem_Click" />-->
+                <shell:ApplicationBarMenuItem x:Name="AboutAndHelpBarMenuItem" Text="about" Click="AboutAndHelpBarMenuItem_Click" />
+            </shell:ApplicationBar.MenuItems>
+        </shell:ApplicationBar>
+    </local:PageBase.ApplicationBar>
+</local:PageBase>
