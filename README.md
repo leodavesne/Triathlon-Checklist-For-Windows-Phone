@@ -21,10 +21,7 @@ Triathlon Checklist uses:
 Authors
 -------
 
-**Léo Davesne**
-
-+ Twitter: http://twitter.com/leodavesne
-+ GitHub: http://github.com/leodavesne
+**LÃ©o Davesne**: http://about.me/leodavesne
 
 
 Copyright and license
