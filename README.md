@@ -18,7 +18,7 @@ Triathlon Checklist uses:
 - StyleCop
 
 
-Authors
+Author
 -------
 
 Léo Davesne: http://about.me/leodavesne
