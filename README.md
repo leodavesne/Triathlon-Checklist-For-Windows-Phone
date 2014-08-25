@@ -21,7 +21,7 @@ Triathlon Checklist uses:
 Authors
 -------
 
-**Léo Davesne**: http://about.me/leodavesne
+Léo Davesne: http://about.me/leodavesne
 
 
 Copyright and license
